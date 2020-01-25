@@ -1,0 +1,321 @@
+@charset "utf-8";
+
+h1{
+    font-weight: bold;
+    color: #3cb371;
+    font-size: 30px;
+}
+h2 {
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+}
+
+h3 {
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+}
+
+
+h4{
+    font-weight: bold;
+     color: #3cb371;
+    font-size: 24px;
+}
+
+#header{}
+#header #logo{
+    margin:30px 0 0 0;
+}
+
+#header #logo h1{
+    margin:0;
+    padding:0;
+    font-size:22px;
+}
+.panel{
+	padding: 0 20px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	margin-bottom: 0px;
+}
+.container{
+    padding:100px 0;
+}
+
+
+.container .sidebar{}
+
+.sidebar .sdb_holder{
+    margin-bottom:50px;
+}
+
+.sidebar .sdb_holder:last-child{
+    margin-bottom:0;
+}
+
+.sidebar nav{
+    display:block; 
+    width:100%;
+}
+.sidebar nav li{
+    margin:0 0 3px 0; 
+    padding:0;
+}
+.sidebar nav a{
+    display:block;
+    position:relative; 
+    margin:0; 
+    padding:5px 10px 5px 15px; 
+    text-decoration:none; 
+    border:solid; 
+    border-width:0 0 1px 0;
+}
+.sidebar nav a::after{
+    top:9px; 
+    left:5px; 
+    content:"\f101";
+}
+.sidebar nav ul ul a{
+    padding-left:35px;
+}
+.sidebar nav ul ul a::after{
+    left:25px;
+}
+.sidebar nav ul ul ul a{
+    padding-left:55px;
+}
+.sidebar nav ul ul ul a::after{
+    left:45px;
+}
+
+nav ul, nav ol{
+    margin:0; padding:0; list-style:none;
+}
+
+#breadcrumb, .sidebar nav{
+    line-height:normal;
+}
+
+#breadcrumb li a::after, .sidebar nav a::after{
+    position:absolute; 
+    font-family:"FontAwesome"; 
+    font-size:10px; 
+    line-height:10px;
+}
+
+
+#breadcrumb{
+    padding:120px 0 15px;
+}
+
+#breadcrumb ul{
+    margin:0; 
+    padding:0; 
+    list-style:none; 
+    text-transform:uppercase;
+}
+
+#breadcrumb li{
+    display:inline-block;
+    margin:0 6px 0 0; 
+    padding:0;
+}
+
+#breadcrumb li a{
+    display:block; 
+    position:relative;
+    margin:0; 
+    padding:0 12px 0 0; 
+    font-size:12px;
+}
+
+#breadcrumb li a::after{
+    top:3px; 
+    right:0; 
+    content:"\f101";
+}
+
+#breadcrumb li:last-child a{
+    margin:0; 
+    padding:0;
+}
+
+#breadcrumb li:last-child a::after{
+    display:none;
+}
+
+.row1{
+    color:#FFFFFF; 
+    background-color:rgba(27,32,38,.3);
+    border-color:rgba(255,255,255,.1);
+}
+
+.row2{
+    color:#474747; 
+    background-color:rgba(255,255,255,.8);
+}
+
+.row3{
+    color:#474747;
+    background-color:#FFFFFF;
+}
+
+.row4{ 
+    color:#A8A7A6; 
+    background-color:#1B2026;
+}
+
+.row5, .row5 a{
+    color:#A8A7A6;
+    background-color:#0F1620;
+}
+
+#header #logo a{
+    color:inherit;
+}
+
+#header #logo a:hover, #header #logo ::first-letter{
+    color:#15AD72;
+}
+
+table, th, td{
+    border:1px solid; 
+    border-collapse:collapse; 
+    vertical-align:top;
+}
+
+table, th{
+    table-layout:auto;
+}
+
+table{
+    width:100%; 
+    margin-bottom:15px;
+}
+
+th, td{
+    padding:5px 8px;
+}
+
+td{
+    border-width:0 1px;
+}
+
+table, th, td {
+    border-color:#F4F4F4;
+}
+
+th{
+    color:#FFFFFF; 
+    background-color:#373737;
+}
+
+tr color:inherit; background-color:#FBFBFB;}
+
+tr:nth-child(even), #comments li:nth-child(even){
+    color:inherit; background-color:#F7F7F7;
+}
+table a, #comments a{
+    background-color:inherit;
+}
+
+.clear, .group{
+    display:block;
+}
+.clear::before, .clear::after, .group::before, .group::after{
+    display:table;
+    content:"";
+}
+
+.clear, .clear::after, .group, .group::after{
+    clear:both;
+}
+
+a{
+    outline:none; 
+    text-decoration:none;
+}
+
+.fl_left, .imgl{
+    float:left;
+}
+
+.fl_right, .imgr{
+    float:right;
+}
+
+img{
+    width:auto;
+    max-width:100%;
+    height:auto; 
+    margin:0; 
+    padding:0; 
+    border:none; 
+    line-height:normal; 
+    vertical-align:middle;
+}
+
+.imgl{
+    margin:0 15px 10px 0;
+    clear:left;
+}
+
+.imgr{
+    margin:0 0 10px 15px;
+    clear:right;
+}
+@media screen and (min-width:978px){
+	.hoc{
+        max-width:978px;
+    }
+}
+
+@media screen and (min-width:978px){
+	.hoc{max-width:978px;}
+}
+
+
+@media screen and (max-width:900px){
+	.hoc{max-width:90%;}
+
+
+
+	#breadcrumb{}
+
+	.container{}
+	
+
+
+}
+
+
+@media screen and (max-width:750px){
+	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
+	.fl_left, .fl_right{display:block; float:none;}
+	.group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}/* Experimental - Needs more testing in different situations, stops double margin when stacking */
+	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 50px 0; padding:0;}
+
+
+
+	
+
+	.sectiontitle{max-width:none; text-align:left;}
+
+	
+}
+
+@media screen and (max-width:650px){
+	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
+	.scrollable table{margin:0; padding:0; white-space:nowrap;}
+
+	.inline li{display:block; margin-bottom:10px;}
+	.pushright li{margin-right:0;}
+
+	.font-x2{font-size:1.4rem;}
+	.font-x3{font-size:1.6rem;}
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+   
+<title>The Software Design Specification Outline</title>
+     <meta charset=utf-8 />
+    <link  href="../CSS/style.css" rel="stylesheet" type="text/css" media="all">
+ </head>
+<body id="top">
+
+    
+<div style="background-image: url(../images/pic1.JPG) ">
+    <div class = "wrapper row1">
+    <header id="breadcrumb" class ="hoc clear"> 
+        <div id= "logo" class="f1_left">
+        <h1><center><a href="index.html">The Software Design Specification Outline</a></center></h1>
+      </div>
+    </header>
+    </div>
+    
+    
+</div>
+
+
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+   
+    <div class ="sidebar one_quarter first"> 
+      
+      <h4><a href="../index.html">SDS</a></h4>
+      <nav class="sdb_holder">
+        <ul>
+          <li><a href="../Pages/Architectural Design.html">01. Architectural Desgin</a></li>
+          <li><a href="../Pages/Component Design.html">02. Component Design</a></li>
+          <li><a href="../Pages/Class Diagram.html">03. Class Diagram</a></li>
+          <li><a href="../Pages/Class Description Details.html">04. Class Description Details</a></li>
+          <li><a href="../Pages/DataBase Design.html">05. DataBase Design</a></li>
+          <li><a href="../Pages/API Listing Details.html">06. API listing and Details</a></li>
+        </ul>
+      </nav>
+      
+      
+    </div>
+      
+      <div class="content three_quarter"> 
+      
+    <h2><center>4.0. Class Description Details</center></h2>
+      
+     
+      <p>
+         <b>User:</b>
+         User class is an abstract class which contains the data of a user for example name, id, password ,email. It also contains methods which can update user data. <br><br>
+
+        <b>Admin:</b>
+        Admin is a class which inherited user class. It contains the data of an admin for example name,email.Admin will also be able to check information,update information, delete account, block account etc. Parent is a class which inherited user class. It contains the data of a user. <br><br>
+
+        <b>Cart:</b>
+        Cart class contains the data of buying medicine, information of quantity,  medicine name, generic name,total price.<br><br>
+
+        <b>Client:</b>
+        Client is a interface of a user. Thisclass contains client name, address, email, buying information. There is few methods which are used by clients to register, login& update profile.<br/><br>  
+        
+        <b>Order:</b>       
+         This Class contains data of client how many orders has been done. This class shows the status of the client. The quantity of medicine the client has ordered.This class contains the order details of medicines.<br/><br>
+        
+        <b>Medicine:</b>
+        This Class contains data of the name, generic name, medicine description, production date & expiry date of the medicine. There are few methods in this class add,delete,update medicine which is maintained by admin. <br><br>
+        
+        <b>Prescription:</b>
+        In this class user will be able upload their prescription. There will be a method in this class which is add prescription.
+        <br><br>
+        
+        <b>Search:</b>
+        This class contains a search option where user will be able to search their medicine by their generic name.<br><br>
+
+
+      </p>
+      
+ 
+    </div>
+
+
+<div class="clear"></div>
+  </main>
+</div>
+
+</body>
+</html>

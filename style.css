@@ -1,0 +1,95 @@
+
+
+h1{
+font-size: 65px;
+font-weight: 45;
+text-align: center;
+}
+
+h2{
+	padding-left: 100px;
+}
+
+h3{
+	text-align: center;
+	font-size: 55px;
+	color: white;
+}
+
+h4{
+	font-size: 40px;
+	padding-top: 50px;
+}
+
+h5{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+
+body{
+	background-image: url("https://fullhdpictures.com/wp-content/uploads/2017/04/Medicine-Photos-HD.jpg");
+	background-size:100% 100% ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+p{
+	font-size: 45px;
+	font-weight: 20;
+	text-align: center;
+}
+p1{
+	font-size: 35px;
+	font-weight: 60;
+	padding: 70px;
+}
+
+p2{
+	font-size: 45px;
+	font-weight: 60;
+	padding: 70px;
+	align: center;
+}
+p3{
+	font-size: 30px;
+	font-weight: 60;
+	padding: 70px;
+	align: center;
+}
+p4{
+	font-size: 22px;
+	font-weight: 20;
+	padding: 70px;
+}
+
+.dang {
+	
+	border-radius: 15px;
+	border: 10px solid #020411;
+	padding-bottom: 60px;
+}
+
+form, .content {
+	width: 55%;
+	margin: 0px auto;
+	padding: 30px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 10px;
+}
+
+.separate{
+	padding: 25px;
+}
+
+.panel{
+	padding: 0 20px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	margin-bottom: 0px;
+}
+

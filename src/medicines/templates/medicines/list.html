@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	<div class='row'>
+
+	{% for obj in object_list %}
+		<div class='col'>
+		{{ forloop.counter }}
+		{% include 'medicines/snippets/card.html' with instance=obj %}
+		
+		{% if forloop.counter|divisibleby:4 %}
+		</div></div><div class='row'><div class='col-1'><hr/></div>
+		{% else %}
+		</div>
+		{% endif %}
+		</div>
+	{% endfor %}
+	
+	</div>
+
+{% endblock %}
